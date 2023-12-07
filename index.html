@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <title>LEVD</title>
+</head>
+
+<body>
+    <header>
+        <form class="barra_de_pesquisa">
+            <input type="text" placeholder="">
+        </form>
+
+        <h1 id="titulo"><i>SUCO DE LARANJA</i></h1>
+
+        <a href="homepage.html">
+            <img src="imagens/logo-2.png" alt="logo com uma laranja" id="logo"> <!-- logo do site  -->
+        </a>
+    </header>
+
+    <class class="colunas-flex"> <!-- inicio da .colunas-flex -->
+        <div class="coluna-1"> <!-- inicio da .coluna-1 -->
+            <h1 id="filtrar"><i>FILTRAR</i></h1>
+
+            <audio id="audio1" src="som_verificado2.mp3"></audio>
+
+            <div class="checkbox1">
+                <input type="checkbox" onclick="playAudio('audio1')" id="checkbox1">
+                <label for="checkbox1" id="labelc">LARANJA</label>
+            </div>
+
+            <div class="checkbox2">
+                <input type="checkbox" onclick="playAudio('audio1')" id="checkbox2">
+                <label for="checkbox2" id="labelc">LARANJA</label>
+            </div>
+
+            <div class="checkbox3">
+                <input type="checkbox" onclick="playAudio('audio1')" id="checkbox3">
+                <label for="checkbox3" id="labelc">LARANJA</label>
+            </div>
+
+            <a href="https://instagram.com/levd.bebidas?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
+                <div class="checkbox4">
+                    <label for="checkbox4" id="insta">Nosso Instagram</label>
+                </div>
+            </a>
+
+            <div class="checkbox5">
+                <label for="checkbox5" id="labelc">(42) 99111-4716</label>
+            </div>
+        </div> <!-- fecha a classe .coluna.1 -->
+        </div> <!-- fecha a classe .colunas-flex -->
+
+        <script>
+            function playAudio(audioID) {
+                document.getElementById(audioID).play();
+            }
+        </script>
+
+        <class class="coluna-2"> <!-- inicio da coluna-2 -->
+
+            <class class="imagem-1 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco " style="border-radius: 15%;">
+            </class>
+
+            <class class="imagem-2 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco " style="border-radius: 15%;">
+            </class>
+
+            <class class="imagem-3 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco " style="border-radius: 15%;">
+            </class>
+
+            <class class="imagem-4 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco " style="border-radius: 15%;">
+            </class>
+
+            <class class="imagem-5 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco " style="border-radius: 15%;">
+            </class>
+
+            <class class="imagem-6 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco " style="border-radius: 15%;">
+            </class>
+
+            <class class="imagem-7 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco " style="border-radius: 15%;">
+            </class>
+
+            <class class="imagem-8 sombreado" id="hover_imagem">
+                <img src="imagens/laranja_3.png" alt="imagem de um copo de suco" style="border-radius: 15%;">
+            </class>
+
+        </class> <!-- fim da coluna-2  -->
+
+    </class> <!-- fecha a classe .colunas-flex -->
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; Copyright Moacir Frog - 2023</p>
+    </footer>
+
+
+</body>
+
+</html>

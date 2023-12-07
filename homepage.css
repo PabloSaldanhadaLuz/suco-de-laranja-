@@ -1,0 +1,70 @@
+:root {
+    --cor-primaria: #ffbd59;
+    --cor-secundaria: #ffdc8a;
+    --cor-dos-botoes: #f56613;
+    --cor-terciaria: #fc973f;
+    --verde-claro: #b5f4bc;
+    --verde-escuro: rgb(9, 87, 9);
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: 'Prompt';
+}
+
+header {
+    background-color: var(--cor-dos-botoes);
+    border-bottom: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 120px;
+    align-items: center;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    grid-row: 1 / 1;
+    grid-column: 3 / 3;
+    justify-self: flex-end;
+    margin-right: 10px;
+}
+
+#link_da_logo {
+    grid-row: 1 / 1;
+    grid-column: 3 / 3;
+    justify-self: flex-end;
+    margin-right: 10px;
+}
+
+#link_celular {
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+    justify-self: center;
+    text-decoration: none;
+    color: var(--verde-escuro);
+    font-size: 20px;
+}
+
+#link_pc {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    justify-self: center;
+    text-decoration: none;
+    color: var(--verde-escuro);
+    font-size: 20px;
+}
+
+#fundo_homepage {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    /* início do rodapé* */
+    text-align: center;
+    background: url(imagens/bg.jpg);
+    padding: 20px 0;
+    height: 100px;
+
+}
